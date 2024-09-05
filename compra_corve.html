@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_compra_corve.css">
+    <title>Corvette C8</title>
+</head>
+<body>
+    <div class="container">
+        <div class="product-image">
+            <img src="imagenes catalogo/corvette.jpg" alt="Corvette">
+        </div>
+        <div class="product-details">
+            <h1>Corvette C8 Stingray</h1>
+            <p class="price">USD 70.000,00</p>
+            <p>C8 Stingray cuenta con un motor V8 de 6.2 litros 
+                que produce alrededor de 490 caballos de fuerza y 465 lb-pie de torque
+            </p>
+            <form>
+                <label for="color">Color:</label>
+                <select id="color" name="color">
+                    <option value="negro">Negro</option>
+                    <option value="blanco">Blanco</option>
+                    <option value="rojo">Rojo</option>
+                    
+                </select>
+                
+                <label for="quantity">Cantidad:</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1">
+                
+                <button type="submit" class="add-to-cart">Añadir al carrito</button>
+
+                <a href="catalogo.html" class="add-to-cart">Volver al Catalogo</a>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
